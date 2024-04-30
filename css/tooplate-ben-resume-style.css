@@ -173,6 +173,9 @@ https://www.tooplate.com/view/2120-ben-resume
   -----------------------------------------*/
 
   .navbar {
+    display: flex;
+    align-items: center; /* This ensures vertical alignment of all items in the navbar */
+    justify-content: space-between; /* Adjusts horizontal spacing */
     background: transparent;
     padding: 0.3rem 1rem;
     transition: all 300ms ease-in-out;
@@ -181,7 +184,7 @@ https://www.tooplate.com/view/2120-ben-resume
     top: 0;
     right: 0;
     left: 0;
-    opacity: 0;
+    opacity: 1; /* Make sure navbar is visible for testing */
   }
 
   .navbar.scroll {

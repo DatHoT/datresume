@@ -105,8 +105,13 @@
         }
     });
     
+    
 
     $('.certifications h4').on('click', function() {
+        $(this).next('p').slideToggle(); // Toggles the visibility of the paragraphs under each header
+    });
+
+    $('.testimonials h3').on('click', function() {
         $(this).next('p').slideToggle(); // Toggles the visibility of the paragraphs under each header
     });
 
