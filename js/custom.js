@@ -83,6 +83,27 @@
             $(this).find('span').css('position', 'absolute').css('top', textHeight + $(this).find('h6').outerHeight() + 'px');
         });
     });
+
+    $(document).ready(function() {
+        $('.testimonials-info span').each(function() {
+            let $span = $(this);
+            if ($span.text().length > 50) {  // Threshold for text length adjustment
+                $span.css('font-size', '12px');  // Reduce font size
+            }
+    
+            // Check if text overflows its container
+            if (isTextOverflowing($span[0])) {
+                $span.css({
+                    'overflow': 'auto',  // Enable scrolling for overflow
+                    'white-space': 'nowrap'  // Keep text in a single line
+                });
+            }
+        });
+    
+        function isTextOverflowing(element) {
+            return element.scrollWidth > element.clientWidth;
+        }
+    });
     
 
     $('.certifications h4').on('click', function() {
