@@ -398,7 +398,16 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .testimonials-image {
-    margin: 0 1rem 1rem 1rem;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    width: 100px; /* Fixed width, adjust as needed */
+    height: 100px; /* Fixed height, adjust as needed */
+    object-fit: cover; /* Ensures the image covers the set area nicely */
+    margin-right: 15px; /* Adds some space between the image and the text next to it */
+  }
+
+  .testimonials-thumb {
+    display: flex;
+    align-items: flex-start; /* Ensures vertical alignment is centered */
   }
 
   .testimonials-image img {
@@ -406,7 +415,28 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .testimonials-info {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: auto; /* Adjust height as needed or make it auto to fit content */
+    min-height: 250px; /* Minimum height to ensure space for all elements */
+    overflow: hidden; /* Keeps everything contained within the div */
+  }
+
+  .testimonials-info p {
+      overflow-y: auto; /* Allows for scrolling if content is too long */
+      flex: 1 1 auto; /* Grows to fill space, but also has an initial base size */
+      margin-bottom: 20px; /* Increase as needed to create more space */
+      max-height: 150px; /* Optional: limit the max height of the paragraph */
+  }
+
+  .testimonials-info h6 {
+    margin-top: 30px; /* No top margin */
+      margin-bottom: 5px; /* Space below h6 if needed */
+  }
+
+  .testimonials-info span {
+    margin-top: 30px
   }
 
   .testimonials .owl-theme .owl-nav.disabled+.owl-dots {
