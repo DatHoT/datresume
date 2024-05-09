@@ -359,6 +359,10 @@ https://www.tooplate.com/view/2120-ben-resume
      FAQ                 
   -----------------------------------------*/
 
+  .faq {
+    background: #f9f9f9;
+  }
+
   .faq .card-header {
     padding: 0;
   }
@@ -394,7 +398,7 @@ https://www.tooplate.com/view/2120-ben-resume
   -----------------------------------------*/
 
   .testimonials {
-    background: #f9f9f9;
+    background: #fff;
   }
 
   .testimonials-image {
@@ -581,7 +585,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .certifications {
-    background-color: #fff; /* Light grey background for the section */
+    background-color: #f9f9f9; /* Light grey background for the section */
     color: #333; /* Dark text for readability */
   }
 
@@ -602,7 +606,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .work-experience {
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #333;
   }
 
@@ -642,7 +646,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .core-competencies {
-    background-color: #f9f9f9; /* White background for clarity */
+    background-color: #fff; /* White background for clarity */
     color: #333333; /* Dark text for readability */
   }
 
@@ -678,7 +682,7 @@ https://www.tooplate.com/view/2120-ben-resume
   }
   
   .publications {
-    background-color: #fff; /* Light grey background for contrast */
+    background-color: #f9f9f9; /* Light grey background for contrast */
     color: #333; /* Dark text for readability */
   }
 
