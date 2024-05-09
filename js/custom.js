@@ -122,6 +122,10 @@
         $(this).next('ul').slideToggle(); // Toggle the visibility of the list under each header
     });
 
+    $('.faq h3').on('click', function() {
+        $(this).next('button').slideToggle(); // Toggles the visibility of the paragraphs under each header
+    });
+
     $('.publication-title').on('click', function() {
         $(this).next('.publication-detail').slideToggle(); // Toggle the visibility of the details
     });

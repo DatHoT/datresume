@@ -49,7 +49,7 @@ https://www.tooplate.com/view/2120-ben-resume
     --h3-font-size:         38px;
     --h4-font-size:         34px;
     --h5-font-size:         30px;
-    --h6-font-size:         24px;
+    --h6-font-size:         20px;
     --p-font-size:          18px;
     --base-font-size:       16px;
     --button-font-size:     20px;
@@ -209,14 +209,14 @@ https://www.tooplate.com/view/2120-ben-resume
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
-    margin: 0 1.5rem;
+    margin: 0 1rem;
     padding: 0;
   }
 
   .navbar-nav .nav-link {
     white-space: nowrap; /* Prevents text wrapping */
-    padding-right: 15px; /* Adjust right padding for spacing */
-    padding-left: 15px;  /* Adjust left padding for spacing */
+    padding-right: 10px; /* Adjust right padding for spacing */
+    padding-left: 10px;  /* Adjust left padding for spacing */
   }
 
   .nav-item .nav-link.active, 
@@ -740,6 +740,33 @@ https://www.tooplate.com/view/2120-ben-resume
   .social-links a {
       color: inherit; /* Inherits the text color from the parent element */
   }
+
+  .education {
+    background-color: #f9f9f9; /* Light grey background for contrast */
+    color: #333; /* Dark text for readability */
+    padding: 20px 0;
+  }
+
+  .timeline {
+      list-style: none; /* Removes list styling */
+      padding: 0;
+  }
+
+  .timeline-item {
+      margin-bottom: 20px; /* Space between entries */
+  }
+
+  .timeline-item h4 {
+      font-size: 1.2em;
+      color: #333; /* Theme color for titles */
+  }
+
+  .timeline-item p {
+      font-size: 1em;
+      margin: 5px 0; /* Spacing between the lines */
+  }
+
+
 
   
   /*---------------------------------------
